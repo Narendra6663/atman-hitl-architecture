@@ -42,7 +42,19 @@ This diagram illustrates how decision-making is extended into execution across m
 
 ![ATMAN HITL Architecture](./atman_hitl_architecture.png)
 
----
+--- ## What This Diagram Represents
+
+This architecture shows how healthcare moves from:
+
+Detection → Decision → Execution → Outcome
+
+Key difference:
+
+- Traditional systems stop at decision  
+- ATMAN ensures execution happens across multiple actors  
+
+Human-in-the-loop ensures decisions are correct.  
+ATMAN ensures decisions are carried out.
 
 ## What This Architecture Enables
 
