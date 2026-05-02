@@ -41,9 +41,6 @@ This is not a linear pipeline.
 
 It is a **closed-loop execution system** where outcomes continuously influence future decisions.
 
-This flow represents a closed-loop system — not a one-time decision pipeline.
-
-This is how reliable systems operate under complexity — not as isolated decisions, but as continuously coordinated actions.
 ---
 
 ## Architecture Diagram
@@ -52,7 +49,9 @@ This diagram illustrates how decision-making is extended into execution across m
 
 ![ATMAN HITL Architecture](./atman_hitl_architecture.png)
 
---- ## What This Diagram Represents
+---
+
+## What This Diagram Represents
 
 This architecture shows how healthcare moves from:
 
@@ -65,6 +64,8 @@ Key difference:
 
 Human-in-the-loop ensures decisions are correct.  
 ATMAN ensures decisions are carried out.
+
+---
 
 ## What This Architecture Enables
 
@@ -106,7 +107,9 @@ ATMAN is:
 
 👉 **An execution layer that ensures decisions translate into coordinated action across the system**
 
-**Designed to operate reliably even in real-world variability — across multiple actors, dependencies, and constraints**
+👉 **Designed to operate reliably even in real-world variability — across multiple actors, dependencies, and constraints**
+
+---
 
 ## What Makes This Different
 
@@ -119,17 +122,19 @@ ATMAN is:
 Because outcomes are not driven by intelligence alone —  
 they are driven by reliable execution.
 
-This is not an optimisation layer.
-
+This is not an optimisation layer.  
 It is a structural layer for system reliability.
+
 ---
 
 ## Key Principle
 
 > Execution is not assumed.  
 > It is managed.
->
-> ## The Deeper Shift
+
+---
+
+## The Deeper Shift
 
 Healthcare does not need more intelligence layers.
 
@@ -137,15 +142,15 @@ It needs systems that can execute reliably across complexity.
 
 That is the shift ATMAN represents.
 
-Systems don’t change when they become smarter.
-
+Systems don’t change when they become smarter.  
 They change when they become reliable.
 
->## Final Thought
+---
+
+## Final Thought
 
 Healthcare systems don’t fail because they lack intelligence.
 
 They fail because they cannot execute reliably at scale.
 
 ATMAN is designed to change that.
-> 
