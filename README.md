@@ -37,6 +37,7 @@ But healthcare systems fail when **execution breaks**.
 
 Signal → AI Detection → Human Validation → Execution → Outcome → Feedback
 
+This flow represents a closed-loop system — not a one-time decision pipeline.
 ---
 
 ## Architecture Diagram
@@ -98,6 +99,9 @@ ATMAN is not:
 ATMAN is:
 
 👉 **An execution layer that ensures decisions translate into coordinated action across the system**
+
+Because outcomes are not driven by intelligence alone —  
+they are driven by reliable execution.
 
 ---
 
