@@ -9,6 +9,9 @@ Healthcare systems today can detect risk.
 
 But they consistently fail to act on it.
 
+> Healthcare doesn’t fail because it lacks capability.  
+> It fails because it lacks execution.
+
 Across hospitals, public health programs, and digital systems, early signals are increasingly captured — yet those signals often fail to translate into timely, coordinated action.
 
 By the time systems respond, intervention becomes reactive, complex, and costly.
@@ -94,7 +97,7 @@ ATMAN is not:
 
 ATMAN is:
 
-👉 **Execution infrastructure for healthcare systems**
+👉 **An execution layer that ensures decisions translate into coordinated action across the system**
 
 ---
 
