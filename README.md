@@ -56,7 +56,7 @@ C -->|Reject| B
 
 C -->|No Response| X[Escalation Trigger]
 
-X --> Y[Alternate Actor / Higher Authority]
+X --> Y[Escalated Actor (ANM / Doctor / Supervisor)]
 
 Y --> D
 
