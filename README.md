@@ -47,10 +47,18 @@ It is a **closed-loop execution system** where outcomes continuously influence f
 graph TD
 
 A[Health Signal] --> B[AI Detection]
+
 B --> C{Human-in-the-Loop}
+
 C -->|Approve| D[Decision Confirmed]
 C -->|Modify| D
 C -->|Reject| B
+
+C -->|No Response| X[Escalation Trigger]
+
+X --> Y[Alternate Actor / Higher Authority]
+
+Y --> D
 
 D --> E[Task Creation]
 
