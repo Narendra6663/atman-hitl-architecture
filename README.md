@@ -1,46 +1,47 @@
-# ATMAN Health OS  
-### Human-in-the-Loop (HITL) + Execution Architecture
+# ATMAN Health OS
+
+### Human-in-the-Loop + Execution Architecture
 
 ---
 
 ## Overview
 
-Most healthcare systems today can detect risk.
+Healthcare systems today can detect risk.
 
-Very few can act on it reliably.
+But they consistently fail to act on it.
 
-ATMAN Health OS is designed as an **execution layer** —  
+ATMAN Health OS is designed as an **execution layer** —
 ensuring that signals translate into timely, coordinated, and accountable action.
 
-This repository outlines how ATMAN integrates:
+This repository demonstrates how ATMAN integrates:
 
-- AI-driven signal detection  
-- Human-in-the-loop validation  
-- Multi-actor execution orchestration  
-- Continuous outcome feedback  
+* AI-driven signal detection
+* Human-in-the-loop validation
+* Multi-actor execution
+* Continuous outcome feedback
 
 ---
 
 ## Core Insight
 
-AI can detect.  
-Humans can decide.  
+AI can detect.
+Humans can decide.
 
-But healthcare systems fail when **execution breaks**.
+But healthcare breaks when **execution fails**.
 
-ATMAN exists to ensure:
-
-> Decisions don’t stop at approval — they translate into action.
+> ATMAN ensures decisions don’t stop at approval — they translate into action.
 
 ---
 
-## Architecture Flow
+## System Flow
 
-Signal → AI Detection → Human Validation → Execution → Outcome → Feedback
+Signal → Detection → Validation → Execution → Outcome → Feedback
 
 ---
 
 ## Architecture Diagram
+
+👉 This diagram shows how decision-making is extended into execution:
 
 ![ATMAN HITL Architecture](./atman_hitl_architecture.png)
 
@@ -49,72 +50,75 @@ Signal → AI Detection → Human Validation → Execution → Outcome → Feedb
 ## How It Works
 
 ### 1. Signal Detection
-Early health signals are captured (e.g., elevated BP, symptoms, lab results)
 
-### 2. AI Risk Assessment
-AI models identify risk and generate recommendations
+Early health signals are captured (e.g., BP, symptoms, lab data)
+
+### 2. AI Risk Identification
+
+AI identifies risk and suggests intervention
 
 ### 3. Human-in-the-Loop (HITL)
-Clinician / health worker validates, modifies, or rejects the decision
 
-### 4. ATMAN Execution Layer
-System creates tasks and coordinates across:
+Clinician / health worker validates or modifies decision
 
-- ASHA Worker  
-- ANM  
-- Doctor  
+### 4. Execution Layer (ATMAN)
+
+System ensures coordination across:
+
+* ASHA
+* ANM
+* Doctor
 
 ### 5. Action Execution
-Care delivery is carried out across actors
+
+Care delivery happens across actors
 
 ### 6. Outcome Tracking
-System captures results and closes the loop
+
+System captures results
 
 ### 7. Feedback Loop
+
 Outcomes feed back into system intelligence
 
 ---
 
-## Use Case Example
+## Use Case
 
 ### Early Hypertension Detection
 
-- ASHA detects high BP at household level  
-- System flags risk  
-- ANM validates reading  
-- Doctor decides intervention  
-- ATMAN ensures follow-up + compliance  
+* ASHA detects elevated BP
+* System flags risk
+* ANM validates
+* Doctor decides intervention
+* ATMAN ensures follow-up
 
-👉 Outcome: Preventable escalation avoided
+👉 Result: Preventable escalation avoided
 
 ---
 
 ## Why This Matters
 
-Most healthtech systems optimise **detection or decision**.
+Most systems optimise:
 
-ATMAN focuses on what happens after:
+* detection
+* decision
 
-- Ensuring tasks are completed  
-- Tracking accountability  
-- Maintaining continuity across actors  
+ATMAN focuses on:
 
----
-
-## Key Principle
-
-> Execution is not assumed.  
-> It is managed.
+* execution
+* accountability
+* continuity
 
 ---
 
 ## Positioning
 
-ATMAN is NOT:
+ATMAN is not:
 
-- a hospital system  
-- a diagnostic tool  
-- a standalone AI product  
+* a hospital system
+* a diagnostic tool
+* a standalone AI product
 
 ATMAN is:
 
@@ -122,21 +126,19 @@ ATMAN is:
 
 ---
 
-## Repository Purpose
+## Key Principle
 
-This repository demonstrates:
-
-- System architecture thinking  
-- Human-in-the-loop control design  
-- Execution-layer orchestration model  
+> Execution is not assumed.
+> It is managed.
 
 ---
 
-## Future Extensions
+## Repository Purpose
 
-- Multi-condition workflows  
-- Integration with public health systems  
-- Real-time dashboards  
-- Outcome-based learning models  
+This repo demonstrates:
+
+* System architecture thinking
+* Human-in-the-loop design
+* Execution-layer orchestration
 
 ---
